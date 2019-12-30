@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    &,
+    &::before,
+    &::after {
+        box-sizing: inherit;
+    }
+  }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 180px;
+  width: 100%;
+  background-color: $color-green-1;
+  background-image: url("../src/assets/img/footer-background.svg");
+  z-index: -1;
+}

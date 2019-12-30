@@ -1,0 +1,27 @@
+@mixin input($width) {
+    height: 34px;
+    width: $width;
+    border: 1px solid $color-grey-6;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin: 0 10px;
+    letter-spacing: 2px;
+
+    &:first-of-type {
+        margin-left: 0;
+    }
+}
+
+@mixin select($width) {
+    width: $width;
+    height: 34px;
+    background-color: white;
+    font-size: 14px;
+    letter-spacing: 1.46px;
+    margin: 0 10px;
+
+    &--disabled {
+        color: $color-grey-6;
+    }
+}
