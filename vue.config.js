@@ -88,4 +88,5 @@ function configSVGIcon(config) {
     chainWebpack: config => {
       configSVGIcon(config);
     },
+    publicPath: process.env.NODE_ENV === 'production' ? '/Payment/' : '/'
   };
