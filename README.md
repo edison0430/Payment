@@ -1,29 +1,8 @@
 # f2e-w4-payment
+[DEMO](https://edison0430.github.io/Payment)
 
-## Project setup
-```
-npm install
-```
+此份專案是參加六角學院第二屆精神時光物的作品
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+設計稿作者：edith.hsu
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[設計稿連結](https://z7x2c0v0b8.github.io/the_f2e_2nd/online_payment.html)
